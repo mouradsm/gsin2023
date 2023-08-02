@@ -1,8 +1,8 @@
 # Resumo POOB - GSIN 2023 - Java
+
+
+### Criação de variáveis 
 ---
-
-#### Criação de variáveis
-
 **Identificadores válidos**: Os nomes de variáveis em Java devem começar com uma letra (a-z ou A-Z) ou com o caractere de sublinhado (_). Eles não podem começar com números ou outros caracteres especiais.
 
 **Comprimento**: Os identificadores podem ter qualquer tamanho, mas é uma boa prática usar nomes significativos e concisos para tornar o código mais legível.
@@ -10,8 +10,7 @@
  **Letras maiúsculas e minúsculas**: Java é sensível a maiúsculas e minúsculas, o que significa que letras maiúsculas e minúsculas são distintas. Por exemplo, "idade" e "Idade" seriam duas variáveis diferentes.
 
  **Palavras reservadas**: É importante evitar o uso de palavras reservadas do Java como nomes de variáveis, pois elas têm significado especial na linguagem. Alguns exemplos de palavras reservadas são "int", "if", "while", "class", entre outras.
-
-
+ 
 **Padrões de nomenclatura**: Existem convenções de nomenclatura amplamente aceitas na comunidade Java. Duas delas são:
    - **Camel Case**: Começa com uma letra minúscula e as palavras subsequentes começam com letra maiúscula, sem espaços ou caracteres especiais. Por exemplo: `idadeDoUsuario`, `numeroDeAlunos`, `nomeCompleto`.
    - **Pascal Case**: Cada palavra começa com letra maiúscula, incluindo a primeira. Por exemplo: `IdadeDoUsuario`, `NumeroDeAlunos`, `NomeCompleto`.
@@ -30,8 +29,8 @@ double salario;
 String nome;
 ```
 
-#### Estruturas de controle
-
+### Estruturas de controle
+---
 **Estrutura de decisão `if`**:
 
 ```java
@@ -58,6 +57,8 @@ if (nota >= 90) {
 }
 ```
 
+
+
 **Estrutura de controle `switch-case`**:
 
 ```java
@@ -80,6 +81,8 @@ switch (diaSemana) {
 }
 ```
 
+
+
 **Estrutura de repetição `for`**:
 
 ```java
@@ -97,6 +100,8 @@ while (contador <= 5) {
     contador++;
 }
 ```
+
+
 
 **Estrutura de repetição `do-while`**:
 
