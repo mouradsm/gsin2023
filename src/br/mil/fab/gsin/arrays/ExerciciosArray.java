@@ -17,6 +17,19 @@ public class ExerciciosArray {
         //verificarPalindromo();
         //encontrarMaior();
         //encontrarMenor();
+        inverterArray();
+    }
+
+    public static void inverterArray(){
+        int[] array = {1, 2, 3, 4, 5};
+
+        int[] arrayInvertido = new int[array.length];
+        for (int i = 0; i < array.length; i++) {
+            arrayInvertido[i] = array[array.length - i - 1];
+        }
+
+        System.out.println("Array original: " + Arrays.toString(array));
+        System.out.println("Array invertido: " + Arrays.toString(arrayInvertido));
     }
 
     public static void verificaParImpar() {
