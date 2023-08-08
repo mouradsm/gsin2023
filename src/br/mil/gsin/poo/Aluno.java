@@ -17,7 +17,7 @@ public class Aluno {
         this.esquadrao = esquadrao;
     }
 
-    // Método nomeMilhao RETORNA um String
+    // Método nomeMilhao RETORNA uma String
     public String nomeMilhao() {
         return this.nomeGuerra + " - " + this.milhao;
     }
@@ -44,7 +44,7 @@ public class Aluno {
     }
 
     public String getMilhao() {
-        return milhao;
+        return this.milhao;
     }
 
     public void setMilhao(String milhao) {
@@ -52,7 +52,7 @@ public class Aluno {
     }
 
     public String getEsquadrao() {
-        return esquadrao;
+        return this.esquadrao;
     }
 
     public void setEsquadrao(String esquadrao) {
