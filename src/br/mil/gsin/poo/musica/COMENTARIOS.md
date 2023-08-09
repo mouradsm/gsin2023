@@ -12,7 +12,7 @@
     - Chama o método `mostrarCreditos()` para obter uma representação formatada das informações da música (título, artista, ano, gênero e álbum) e imprime essas informações no console.
 
 4. `musicaNova.reproduzir();`
-    - Chama o método `reproduzir()` para iniciar a reprodução da música. No entanto, a implementação da lógica real de reprodução não está presente no código fornecido.
+    - Chama o método `reproduzir()` para iniciar a reprodução da música. 
 
 5. `musicaNova.pausar();`
-    - Chama o método `pausar()` para pausar a reprodução da música. Similarmente, a implementação da lógica real de pausa não está presente no código fornecido.
+    - Chama o método `pausar()` para pausar a reprodução da música. 
