@@ -1,38 +1,38 @@
 package br.mil.gsin.poo.militar;
 
-import java.util.Random;
-
-// Declaração da classe abstrata Militar
 public abstract class Militar {
-
-    // Atributos da classe Militar
     private String nomeGuerra;
     private String saram;
     private String identidadeMilitar;
-    private double soldo;
 
-    // Construtor da classe Militar
+    private double salario;
+
     public Militar(String nomeGuerra, String saram) {
         this.nomeGuerra = nomeGuerra;
         this.saram = saram;
     }
 
-    // Método estático para gerar um número aleatório para o SARAM
+    public Militar(String nomeGuerra, String saram, String identidadeMilitar) {
+        this.nomeGuerra = nomeGuerra;
+        this.saram = saram;
+        this.identidadeMilitar = identidadeMilitar;
+    }
+
+    public void reformar() {
+        System.out.println("Este militar foi reformado!");
+    }
+
+
     public static String gerarSaram() {
-        return "1234567";
+        return "9876846";
     }
 
-    // Método para realizar a ação de marchar
     public void marchar() {
-        System.out.println(this.nomeGuerra + " está marchando!");
+        System.out.println("Estou marchando!");
     }
 
-    // Método para realizar a ação de prestar continência
-    public void prestarContinencia() {
-        System.out.println(this.nomeGuerra + " prestou continência!");
-    }
+    //public abstract void calcularSalario();
 
-    // Métodos getters e setters para as propriedades
     public String getNomeGuerra() {
         return nomeGuerra;
     }
@@ -57,11 +57,11 @@ public abstract class Militar {
         this.identidadeMilitar = identidadeMilitar;
     }
 
-    public double getSoldo() {
-        return soldo;
+    public double getSalario() {
+        return salario;
     }
 
-    public void setSoldo(double soldo) {
-        this.soldo = soldo;
+    public void setSalario(double salario) {
+        this.salario = salario;
     }
 }

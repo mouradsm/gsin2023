@@ -1,29 +1,25 @@
 package br.mil.gsin.poo.militar;
 
-// Declaração da classe Aluno, que herda de Militar
-public class Aluno extends Militar {
-
-    // Atributo específico da classe Aluno
+public final class Aluno extends Militar {
     private String milhao;
 
-    // Construtor da classe Aluno
-    public Aluno(String nomeGuerra, String saram) {
-        // Chama o construtor da classe pai (Militar) passando os parâmetros
+    public static final double SOLDO = 1199;
+
+    public Aluno(String nomeGuerra, String saram, String milhao) {
         super(nomeGuerra, saram);
+
+        this.milhao = milhao;
     }
 
-    // Método para pagar (ainda não implementado)
-    public void pagar() {
-        // Implementação do método pagar
-    }
-
-    // Método para estudar
     public void estudar() {
-        // Imprime uma mensagem indicando que o aluno está estudando
-        System.out.println(this.getNomeGuerra() + " está estudando!");
+
     }
 
-    // Métodos getters e setters para a propriedade milhao
+    @Override
+    public void marchar() {
+        System.out.println("Estou marchando no padrão!");
+    }
+
     public String getMilhao() {
         return milhao;
     }
@@ -32,4 +28,3 @@ public class Aluno extends Militar {
         this.milhao = milhao;
     }
 }
-

@@ -1,28 +1,44 @@
 package br.mil.gsin.poo.militar;
 
 public class Main {
-
     public static void main(String[] args) {
 
-        // Criação de uma instância da classe Sargento chamada sargentoMoura
-        // O construtor recebe o nome de guerra "Moura" e um número SARAM gerado aleatoriamente
-        Sargento sargentoMoura = new Sargento("Moura", Militar.gerarSaram());
-        // Define a identidade militar do sargentoMoura como "123456"
-        sargentoMoura.setIdentidadeMilitar("123456");
+        String frase = "olá, tudo bem?";
 
-        // Criação de uma instância da classe Aluno chamada alunaAndressa
-        Aluno alunaAndressa = new Aluno("Andressa", Militar.gerarSaram());
-        // Define a identidade militar da alunaAndressa como "654321"
-        alunaAndressa.setIdentidadeMilitar("654321");
-        // Define o atributo específico de Aluno, milhao, como "23/12345"
-        alunaAndressa.setMilhao("23/12345");
+        Sargento sargentoSoares = new TerceiroSargento("Soares",
+                Militar.gerarSaram());
 
-        alunaAndressa.prestarContinencia();
-        sargentoMoura.prestarContinencia();
+        Militar sargentoMoura = new SegundoSargento("Moura",
+                "6383416");
 
-        alunaAndressa.estudar();
-        sargentoMoura.trabalhar();
+        Aluno alunoDeLima = new Aluno("De Lima",
+                "654321",
+                "23/3135");
+        Militar alunaAndressa = new Aluno("Andressa",
+                "987654",
+                "23/5363");
+
+        Sargento sargentoMaisonete = new PrimeiroSargento("Maisonete",
+                "012585");
+
+
+        alunaAndressa.marchar();
+        sargentoMaisonete.marchar();
+
+        //System.out.println(Pagamento.calcularAdicionalHabilitacao(SegundoSargento.SOLDO));
+
+//        sargentoSoares.setSalario(8500);
+//        sargentoMoura.setSalario(5000);
+//        sargentoMaisonete.setSalario(15000);
+//
+//        alunoDeLima.setSalario(500);
+
+//        Pagamento.pagarMilitar(sargentoSoares);
+//        Pagamento.pagarMilitar(sargentoMoura);
+//        Pagamento.pagarMilitar(sargentoMaisonete);
+//        Pagamento.pagarMilitar(alunoDeLima);
 
 
     }
 }
+
