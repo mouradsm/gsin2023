@@ -1,4 +1,4 @@
-package br.mil.gsin.poo.funcionario;
+package br.mil.gsin.poo.restaurante;
 
 public class Pagamento {
 
