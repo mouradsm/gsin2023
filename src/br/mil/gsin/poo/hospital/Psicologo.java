@@ -13,7 +13,7 @@ public class Psicologo extends Medico {
         System.out.println(getNome() + " está realizando uma sessão de terapia.");
     }
 
-    public void avaliarPacientePelaIdade(int idade) {
+    public void diagnosticarPacientePelaIdade(int idade) {
         String condicao = idade % 2 == 0 ? "Doido" : "Normal";
         System.out.println("Paciente é " + condicao);
     }

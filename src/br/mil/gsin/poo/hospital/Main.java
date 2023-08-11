@@ -13,7 +13,7 @@ public class Main {
         psiCarol.atenderPaciente();
         nutriMaria.atenderPaciente();
 
-        psiCarol.avaliarPacientePelaIdade(28);
+        psiCarol.diagnosticarPacientePelaIdade(28);
         nutriMaria.calcularIMC(59,1.68);
 
         DepartamentoRH.demitirMedico(nutriMaria);
