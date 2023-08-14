@@ -1,4 +1,4 @@
-package br.mil.gsin.poo.interfaces;
+package br.mil.gsin.poo.interfaces.veiculos;
 
 // Definição da classe Moto que implementa a interface VeiculoInterface
 public class Moto implements VeiculoInterface {

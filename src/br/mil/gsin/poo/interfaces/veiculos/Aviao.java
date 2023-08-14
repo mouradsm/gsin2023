@@ -1,4 +1,4 @@
-package br.mil.gsin.poo.interfaces;
+package br.mil.gsin.poo.interfaces.veiculos;
 
 // Classe Aviao que implementa a interface VeiculoInterface
 public class Aviao implements VeiculoInterface {

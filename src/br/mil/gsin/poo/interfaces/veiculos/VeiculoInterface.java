@@ -1,4 +1,4 @@
-package br.mil.gsin.poo.interfaces;
+package br.mil.gsin.poo.interfaces.veiculos;
 
 // Definição da interface VeiculoInterface
 public interface VeiculoInterface {

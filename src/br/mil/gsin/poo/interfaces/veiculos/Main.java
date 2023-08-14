@@ -1,4 +1,4 @@
-package br.mil.gsin.poo.interfaces;
+package br.mil.gsin.poo.interfaces.veiculos;
 
 public class Main {
     public static void main(String[] args) {
